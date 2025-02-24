@@ -1,0 +1,78 @@
+.containerSp {
+    width: 100%;
+    height: 115px;
+    background: url(https://newlauncher.sgp1.digitaloceanspaces.com/Extras%2F1%20Image%20Social%20Proof.png) repeat-x;
+    background-size: 1509px 115px;
+    animation: social-scroll 18s linear 2s infinite;
+}
+
+@keyframes social-scroll {
+    to {
+        background-position: -1509px 0;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .containerSp {
+        height: 99px;
+        background-size: 1299px 99px;
+    }
+
+    @keyframes social-scroll {
+        to {
+            background-position: -1299px 0;
+        }
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .containerSp {
+        height: 100px;
+        background-size: 1312px 100px;
+    }
+
+    @keyframes social-scroll {
+        to {
+            background-position: -1312px 0;
+        }
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .containerSp {
+        height: 93px;
+        background-size: 1220px 93px;
+    }
+
+    @keyframes social-scroll {
+        to {
+            background-position: -1220px 0;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .containerSp {
+        height: 81px;
+        background-size: 1063px 81px;
+    }
+
+    @keyframes social-scroll {
+        to {
+            background-position: -1063px 0;
+        }
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .containerSp {
+        height: 60px;
+        background-size: 787px 60px;
+    }
+
+    @keyframes social-scroll {
+        to {
+            background-position: -787px 0;
+        }
+    }
+}
